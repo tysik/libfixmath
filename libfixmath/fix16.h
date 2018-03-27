@@ -196,6 +196,11 @@ static inline fix16_t fix16_deg_to_rad(fix16_t degrees)
 */
 extern fix16_t fix16_sqrt(fix16_t inValue) FIXMATH_FUNC_ATTRS;
 
+/*! Returns the square root of the given fix16_t.
+
+*/
+extern fix16_t fix16_pow(fix16_t base, uint8_t exponent) FIXMATH_FUNC_ATTRS;
+
 /*! Returns the square of the given fix16_t.
 */
 static inline fix16_t fix16_sq(fix16_t x)
